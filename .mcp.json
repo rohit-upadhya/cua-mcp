@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "cua": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "CUA_HEADLESS": "0"
+      }
+    },
+    "computer": {
+      "command": "node",
+      "args": ["dist/computer-index.js"]
+    }
+  }
+}
